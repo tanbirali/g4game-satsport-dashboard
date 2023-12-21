@@ -105,7 +105,7 @@ const Header = (props: {
           <h1 className="text-2xl font-bold text-black-2">Dashboard</h1>
         </div>
 
-        
+
         <div className=" hidden bg-slate-100 sm:flex  border rounded-md">
           <div className="flex flex-col items-center mx-6">
             <p>CASH</p>
@@ -125,7 +125,7 @@ const Header = (props: {
         <div className="flex items-center gap-3 2xsm:gap-7">
           <ul className="flex items-center gap-2 2xsm:gap-4">
             {/* <!-- Dark Mode Toggler --> */}
-            <DarkModeSwitcher />
+            {/* <DarkModeSwitcher /> */}
             {/* <!-- Dark Mode Toggler --> */}
 
             {/* <!-- Notification Menu Area --> */}

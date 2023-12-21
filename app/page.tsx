@@ -2,8 +2,14 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-
+import { Metadata } from "next";
 import LoginLayout from "./layout"
+
+export const metadata: Metadata = {
+    title: "SAT SPORTS247",
+    description: "",
+    // other metadata
+  };
 
 const Page = () => {
 

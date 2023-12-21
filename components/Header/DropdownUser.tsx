@@ -38,7 +38,7 @@ const DropdownUser = () => {
     <div className="relative">
       <Link
         ref={trigger}
-        onClick={() => setDropdownOpen(!dropdownOpen)}
+        // onClick={() => setDropdownOpen(!dropdownOpen)}
         className="flex flex-row-reverse items-center gap-4"
         href="#"
       >
