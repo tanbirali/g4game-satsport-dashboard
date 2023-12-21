@@ -56,17 +56,17 @@ const Header = (props: {
           </button>
           {/* <!-- Hamburger Toggle BTN --> */}
 
-          <Link className="block flex-shrink-0 lg:hidden" href="/">
+          {/* <Link className="block flex-shrink-0 lg:hidden" href="/">
             <Image
               width={32}
               height={32}
               src={"/images/logo/logo-icon.svg"}
               alt="Logo"
             />
-          </Link>
+          </Link> */}
         </div>
 
-        <div className="hidden sm:block">
+        {/* <div className="hidden sm:block">
           <form action="https://formbold.com/s/unique_form_id" method="POST">
             <div className="relative">
               <button className="absolute left-0 top-1/2 -translate-y-1/2">
@@ -100,8 +100,28 @@ const Header = (props: {
               />
             </div>
           </form>
+        </div> */}
+        <div className="hidden sm:block">
+          <h1 className="text-2xl font-bold text-black-2">Dashboard</h1>
         </div>
 
+        
+        <div className=" hidden bg-slate-100 sm:flex  border rounded-md">
+          <div className="flex flex-col items-center mx-6">
+            <p>CASH</p>
+            <span className="font-bold">0</span>
+          </div>
+          <div className="border-r-2 border-slate-400 h-10"></div>
+          <div className="flex flex-col items-center mx-6">
+            <p>COINS</p>
+            <p className="font-bold">0</p>
+          </div>
+          <div className="border-r-2 border-slate-400 h-10"></div>
+          <div className="flex flex-col items-center mx-6">
+            <p>BALANCE</p>
+            <p className="font-bold">0</p>
+          </div>
+        </div>
         <div className="flex items-center gap-3 2xsm:gap-7">
           <ul className="flex items-center gap-2 2xsm:gap-4">
             {/* <!-- Dark Mode Toggler --> */}
@@ -109,11 +129,11 @@ const Header = (props: {
             {/* <!-- Dark Mode Toggler --> */}
 
             {/* <!-- Notification Menu Area --> */}
-            <DropdownNotification />
+            {/* <DropdownNotification /> */}
             {/* <!-- Notification Menu Area --> */}
 
             {/* <!-- Chat Notification Area --> */}
-            <DropdownMessage />
+            {/* <DropdownMessage /> */}
             {/* <!-- Chat Notification Area --> */}
           </ul>
 
